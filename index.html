@@ -3,15 +3,62 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My GitHub Pages Site</title>
+  <title>My Stylish Website</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f0f0f0; }
-    h1 { color: #333; }
+    body, h1, h2, p, ul, li {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f9f9f9; color: #333; line-height: 1.6; padding: 20px;
+    }
+    header {
+      background: #005f73; color: white; padding: 20px; text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ffd60a; text-decoration: none; margin: 0 15px; font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      margin-top: 30px;
+    }
+    section {
+      background: white; padding: 15px 20px; margin-bottom: 20px;
+      border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center; padding: 10px; font-size: 0.9rem; color: #555; margin-top: 40px;
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to My GitHub Pages Website!</h1>
-  <p>This is a simple static website hosted on GitHub Pages.</p>
+  <header>
+    <h1>Welcome to My Stylish Website</h1>
+    <nav>
+      <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>About This Site</h2>
+      <p>This is a simple website with CSS styling included inside the HTML file.</p>
+    </section>
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Clean design</li>
+        <li>Responsive layout</li>
+        <li>Easy to customize</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Harsha Vardhan</p>
+  </footer>
 </body>
 </html>
-
